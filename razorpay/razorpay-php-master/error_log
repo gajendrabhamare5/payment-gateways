@@ -1,0 +1,309 @@
+[27-Oct-2021 08:04:51 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[27-Oct-2021 08:04:52 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[27-Oct-2021 18:34:52 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pakistan/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/pakistan/public_html/include/connection.php on line 13
+[27-Oct-2021 18:34:53 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api secret provided is invalid' in /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/pakistan/publ in /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[27-Oct-2021 08:12:22 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[27-Oct-2021 08:12:23 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[27-Oct-2021 18:42:23 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pakistan/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/pakistan/public_html/include/connection.php on line 13
+[27-Oct-2021 18:42:24 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api secret provided is invalid' in /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/pakistan/publ in /home/pakistan/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[27-Oct-2021 08:16:45 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[27-Oct-2021 18:46:45 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pakistan/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/pakistan/public_html/include/connection.php on line 13
+[15-Dec-2021 07:31:19 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Dec-2021 07:31:20 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Dec-2021 19:01:20 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pakistan/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/pakistan/public_html/include/connection.php on line 22
+[28-Dec-2021 03:18:51 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 03:18:53 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 03:18:53 America/Chicago] PHP Warning:  include(../../../include/connection.php): failed to open stream: No such file or directory in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:18:53 America/Chicago] PHP Warning:  include(../../../include/connection.php): failed to open stream: No such file or directory in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:18:53 America/Chicago] PHP Warning:  include(): Failed opening '../../../include/connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:18:53 America/Chicago] PHP Notice:  Undefined variable: conn in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 8
+[28-Dec-2021 03:18:53 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 8
+[28-Dec-2021 03:18:53 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 9
+[28-Dec-2021 03:18:54 America/Chicago] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api key provided is invalid' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/luca in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[28-Dec-2021 03:19:09 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 03:19:09 America/Chicago] PHP Warning:  include(../../../include/connection.php): failed to open stream: No such file or directory in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:19:09 America/Chicago] PHP Warning:  include(../../../include/connection.php): failed to open stream: No such file or directory in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:19:09 America/Chicago] PHP Warning:  include(): Failed opening '../../../include/connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined variable: conn in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 8
+[28-Dec-2021 03:19:09 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 8
+[28-Dec-2021 03:19:09 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 9
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 03:19:09 America/Chicago] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 03:19:10 America/Chicago] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api key provided is invalid' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/luca in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[28-Dec-2021 03:56:49 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 03:56:49 America/Chicago] PHP Warning:  include(../../../include/connection.php): failed to open stream: No such file or directory in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:56:49 America/Chicago] PHP Warning:  include(../../../include/connection.php): failed to open stream: No such file or directory in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:56:49 America/Chicago] PHP Warning:  include(): Failed opening '../../../include/connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 3
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined variable: conn in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 8
+[28-Dec-2021 03:56:50 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 8
+[28-Dec-2021 03:56:50 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 9
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 03:56:50 America/Chicago] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 03:56:51 America/Chicago] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api key provided is invalid' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/luca in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[28-Dec-2021 03:58:04 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 03:58:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 03:58:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 9
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 15:28:04 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 15:28:06 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api key provided is invalid' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/luca in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[28-Dec-2021 04:19:18 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:19:19 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:19:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:19:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 15:49:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 9
+[28-Dec-2021 15:49:20 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api key provided is invalid' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/luca in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[28-Dec-2021 04:22:58 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:22:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:22:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 9
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 15:52:59 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 15:53:00 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The api key provided is invalid' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:123
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 401, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/luca in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 123
+[28-Dec-2021 04:26:48 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:26:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:26:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 15:56:48 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 15:56:50 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/ in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 120
+[28-Dec-2021 04:29:54 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:29:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:29:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 15:59:54 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 15:59:56 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/ in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 120
+[28-Dec-2021 04:36:53 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:36:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:36:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 16:06:53 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 16:06:54 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/ in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 120
+[28-Dec-2021 04:36:55 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:36:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:36:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 16:06:55 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 16:06:56 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/ in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 120
+[28-Dec-2021 04:37:03 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:37:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:37:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[28-Dec-2021 16:07:03 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[28-Dec-2021 16:07:05 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/ in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 120
+[28-Dec-2021 04:41:18 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:41:49 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:43:27 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:43:33 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:53:06 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:53:44 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:53:44 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2021 04:53:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[28-Dec-2021 04:53:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[29-Dec-2021 01:47:49 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:47:51 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:47:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[29-Dec-2021 01:47:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[29-Dec-2021 01:51:55 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:51:55 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:51:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[29-Dec-2021 01:51:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[29-Dec-2021 01:57:05 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:57:06 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:57:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[29-Dec-2021 01:57:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[29-Dec-2021 01:58:27 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:58:27 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 01:58:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[29-Dec-2021 01:58:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[29-Dec-2021 02:03:19 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 02:03:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[29-Dec-2021 02:03:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_id in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 11
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_order_total in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 12
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_first_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 14
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_last_name in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 15
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_email in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 17
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_phone in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 18
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address1 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 19
+[29-Dec-2021 13:33:19 Asia/Kolkata] PHP Notice:  Undefined index: hidden_address2 in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php on line 20
+[29-Dec-2021 13:33:21 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/ in /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/razorpay-php/src/Request.php on line 120
+[29-Dec-2021 02:03:30 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 02:03:30 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Dec-2021 02:03:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[29-Dec-2021 02:03:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[01-Jan-2022 01:27:25 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 01:27:26 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 01:27:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[01-Jan-2022 01:27:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[01-Jan-2022 01:41:53 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 01:41:54 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 01:41:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[01-Jan-2022 01:41:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[01-Jan-2022 03:07:41 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 03:07:41 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 03:07:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[01-Jan-2022 03:07:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[01-Jan-2022 04:04:12 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 04:04:13 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 04:04:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[01-Jan-2022 04:04:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[01-Jan-2022 04:07:44 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 04:07:44 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Jan-2022 04:07:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[01-Jan-2022 04:07:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
+[21-Jan-2022 05:50:28 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[21-Jan-2022 05:50:30 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1650 but version 1654 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[21-Jan-2022 05:50:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 3
+[21-Jan-2022 05:50:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lucaccides/public_html/payment/razorpay/razorpay-php-master/pay.php:2) in /home/lucaccides/public_html/retail-admin/include/conn.php on line 4
